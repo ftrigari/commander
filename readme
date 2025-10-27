@@ -6,3 +6,11 @@ commander <folder> script
 commander <folder> --help
 commander script
 commander --help
+
+
+build:
+docker build -t commander  .
+
+run:
+docker run -it commander  database print
+
