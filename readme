@@ -1,0 +1,7 @@
+# commander
+
+
+use:
+commander <folder> script 
+commander <folder> --help
+commander --help
